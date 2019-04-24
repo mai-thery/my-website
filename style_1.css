@@ -1,0 +1,425 @@
+/*Début: Fond d'écran acceuil*/
+/*.image_fond{
+margin:0; 
+padding:0; 
+background: url("Page2.png") no-repeat center fixed; 
+-webkit-background-size: cover; */ /* pour Chrome et Safari */ 
+/*-moz-background-size: cover; *//* pour Firefox */
+/*-o-background-size: cover; /* pour Opera */ 
+/*background-size: cover; /* version standardisée */ 
+
+#exit{
+    background-color:rgba(0,0,0,.5);
+
+}
+
+#exit .popup{
+    padding:0;
+    width:800px;
+    height:430px;
+    margin:auto;
+    background-image: url(https://68.media.tumblr.com/tumblr_lqk90jjW8D1qbmshro1_500.gif);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity: none;
+}
+.popup-overlay .popup .close{position:absolute;top:15px;right:15px;color:#ff00a4;font-size:1.5em;cursor:pointer;padding:.35em;vertical-align:middle}@media (min-width:800px){.notouch .popup-overlay .popup .close:hover{font-size:3em;padding:0}}.popup-overlay .popup h1{color:#ff0;text-align:center;font-size:8em}.popup-overlay .popup form .field,.popup-overlay .popup img{width:400px;margin:20px auto}.popup-overlay .popup img{height:auto}.popup-overlay .popup form .field{font-size:1.5em;line-height:1em;display:block;padding:5px 10px;margin-bottom:0}.popup-overlay .popup form .sbm{display:block;color:transparent;background-color:transparent;background-image:url(/img/popup/sbm.gif);background-position:center bottom;background-repeat:no-repeat;background-size:contain;width:200px;height:150px;cursor:pointer;margin:auto}
+.popup-overlay{top:0;bottom:0;right:0;left:0;position:fixed;display:none;z-index:500}.popup-overlay .outer{display:table;position:absolute;height:100%;width:100%}.popup-overlay .middle{display:table-cell;vertical-align:middle}
+
+/* Guillaume Gallienne */
+/*Div à droite*/
+.art{
+    position:absolute;
+    top: 70px;
+    right: 0;
+    height: 546px;
+    width: 400px;
+    background-color: rgb(164, 205, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: justify; }
+.art-inside{
+    position:absolute;
+    top: 150px;
+    right: 50px;
+    height: 500px;
+    width: 300px; 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.art-down{
+    position:absolute;
+    top:800px;
+    height: 120px;
+    right:10px;}
+
+a.bouton:link{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    color:black;}
+
+a.bouton:visited{
+    color:black;}
+
+/*a.bouton:link{
+    text-decoration:none;
+    color:black;}
+
+/*Image*/
+img.nuit-des-temps{
+    position:absolute;
+    right: 400px;
+    top:70px;}
+
+img.rosalie{
+    position:absolute;
+    right: 500px;
+    top:70px;}
+
+img.imitation{
+    position:absolute;
+    right: 621px;
+    top:70px;}
+
+img.chicas{
+    position:absolute;
+    right: 736px;
+    top:70px;}
+
+img.brassens{
+    position:absolute;
+    right: 400px;
+    top:243px;}
+
+img.emifion{
+    position: absolute;
+    right:703px;
+    top: 243px;}
+
+img.simone{
+    position:absolute;
+    top:70px;
+    right:859px;}
+
+img.carte_guigui{
+    position: absolute;
+    top: 70px;
+    right: 975px;}
+
+img.piaf{
+    position:absolute;
+    top:416px;
+    right:400px;}
+
+img.pomme{
+    position:absolute;
+    top:416px;
+    right:640px;}
+
+img.amours{
+    position:absolute;
+    top:416px;
+    right:880px;}
+
+img.ben{
+    position:absolute;
+    top:416px;
+    left:0;}
+
+img.minette{
+    position:absolute;
+    top:610px;
+    left:200px;}
+
+/*Laurence anyways*/
+#log{
+    font-family: monospace;
+}
+/*Début: Derangeantes*/
+a.carte_blanche{
+    position:absolute;
+    top: 290px;
+    left: 290px;
+    border-radius:50px;
+    width: 100px;
+    height:100px;
+}
+
+/*Début: Boutons acceuil*/
+a.bouton_guigui{ 
+    position: absolute;
+    top:200px;
+    left: 550px;
+
+    background: lightsteelblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    border-radius:50px;
+    width: 50px;
+    height:50px;
+    }
+
+a.bouton_guigui:hover { /*au passage de la souris prend ce design*/
+    background: lightblue; 
+    }
+
+a.bouton_montreal{ 
+    position: absolute;
+    top:280px;
+    left: 480px;
+    
+    background: lightskyblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    border-radius:50px;
+    width: 100px;
+    height:100px;
+    
+    }
+
+a.bouton_montreal:hover { /*au passage de la souris prend ce design*/
+    background: lightblue; 
+    }
+
+a.bouton_derangeantes{ 
+    position: absolute;
+    top:420px;
+    left: 470px;
+    
+    background: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    border-radius:50px;
+    width: 90px;
+    height:90px;
+    }
+    
+a.bouton_derangeantes:hover { /*au passage de la souris prend ce design*/
+    background: lightgreen; 
+    }
+
+a.bouton_on_brulera{ 
+    position: absolute;
+    top:520px;
+    left: 510px;
+    
+    background: lightblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    border-radius:50px;
+    width: 75px;
+    height:75px;
+}
+a.bouton_on_brulera:hover { /*au passage de la souris prend ce design*/
+    background: yellow; 
+    }
+
+a.bouton_simone{ 
+    position: absolute;
+    top:100px;
+    left: 710px;
+        
+    background: lightsalmon;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    border-radius:50px;
+    width: 75px;
+    height:75px;
+}
+a.bouton_simone:hover { /*au passage de la souris prend ce design*/
+    background: yellow; 
+}
+
+a.bouton_tokyo{ 
+    position: absolute;
+    top:100px;
+    left: 860px;
+        
+    background: lightgoldenrodyellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    border-radius:50px;
+    width: 75px;
+    height:75px;
+}
+a.bouton_tokyo:hover { /*au passage de la souris prend ce design*/
+    background: yellow; 
+}
+
+a.bouton_inoui{ 
+    position: absolute;
+    top:100px;
+    left: 1010px;
+        
+    background: lavender;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    border-radius:50px;
+    width: 65px;
+    height:65px;
+}
+a.bouton_inoui:hover { /*au passage de la souris prend ce design*/
+    background: yellow; 
+}
+
+a.bouton_meufs{ 
+    position: absolute;
+    top:100px;
+    left: 1210px;
+        
+    background: lightgreen;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    border-radius:50px;
+    width: 55px;
+    height:55px;
+}
+a.bouton_meufs:hover { /*au passage de la souris prend ce design*/
+    background: yellow; 
+}
+a.bouton_bambins{ 
+    position: absolute;
+    top:100px;
+    left: 1370px;
+        
+    background: lightcoral;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    border-radius:50px;
+    width: 35px;
+    height:35px;
+}
+a.bouton_bambins:hover { /*au passage de la souris prend ce design*/
+    background: yellow; 
+}
+
+a.bouton_v1{ 
+    position: absolute;
+    bottom:50px;
+    left: 500px;
+        
+    background: lightcoral;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    border-radius:50px;
+    width: 100px;
+    height:100px;
+}
+a.bouton_v1:hover { /*au passage de la souris prend ce design*/
+    background: yellow; 
+}
+
+a.bouton_v2{ 
+    position: absolute;
+    bottom:50px;
+    left: 675px;
+        
+    background: lightcoral;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    border-radius:50px;
+    width: 100px;
+    height:100px;
+}
+a.bouton_v1:hover { /*au passage de la souris prend ce design*/
+    background: yellow; 
+}
+
+a.bouton_v3{ 
+    position: absolute;
+    bottom:50px;
+    right: 500px;
+        
+    background: lightcoral;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    border-radius:50px;
+    width: 100px;
+    height:100px;
+}
+a.bouton_v1:hover { /*au passage de la souris prend ce design*/
+    background: yellow; 
+}
+
+#conteneur{
+    display: flex;
+}
+
+#element{
+    text-align: left;
+}
+
+/*Début: Design du footer*/
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    position: center;
+    top: 0; 
+    left:0;
+    right:0;
+
+}
+
+footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    position: absolute;
+    bottom: 40px; 
+    left:350px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+    
+li.index {
+    float: right;
+}
+      
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: lightblue;
+}   
+
+ol {
+    list-style-type: decimal;
+}
+
+
+/*Fin: Design du footer*/
