@@ -1,2 +1,2 @@
 # my-website
-moi, ma vie, mon oeuvre. html/css + j-query interactive tools. 
+Test html/css + j-query interactive tools. 
